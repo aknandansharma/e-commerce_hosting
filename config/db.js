@@ -2,7 +2,6 @@ import mongoose from "mongoose";
 import colors from "colors";
 
 mongoose.set("strictQuery", false);
-mongoose.Promise = global.Promise;
 
 const connectDB = async () => {
     try {
